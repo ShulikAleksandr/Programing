@@ -1,0 +1,26 @@
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.el {
+    padding: 10px;
+    flex-basis: 130px;
+    text-align: center;
+    background: rgb(50, 125, 255);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blocks {
+    flex-basis: 300px;
+    margin: 1%;
+    background-color: rgba(50, 100, 150, 0.5);
+}
